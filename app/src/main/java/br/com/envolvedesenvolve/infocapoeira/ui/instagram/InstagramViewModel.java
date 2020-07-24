@@ -1,16 +1,16 @@
-package br.com.envolvedesenvolve.infocapoeira.ui.slideshow;
+package br.com.envolvedesenvolve.infocapoeira.ui.instagram;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class SlideshowViewModel extends ViewModel {
+public class InstagramViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public SlideshowViewModel() {
+    public InstagramViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is slideshow fragment");
+        mText.setValue("This is tools fragment");
     }
 
     public LiveData<String> getText() {
