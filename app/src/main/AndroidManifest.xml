@@ -15,6 +15,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
+
+        <meta-data android:name="io.sentry.dsn" android:value="058452f8ce3411ea9a574201c0a8d032" />
+
         <activity
             android:name=".MainActivity"
             android:configChanges="orientation|screenSize"
